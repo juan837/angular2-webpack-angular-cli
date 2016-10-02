@@ -13,6 +13,9 @@ import { FooterSectionComponent } from './footer-section/footer-section.componen
 import { PaginaComponent } from './pagina/pagina.component';
 import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { InicioComponent } from './pagina/inicio/inicio.component';
+import { ProductosComponent } from './pagina/productos/productos.component';
+import { AcercaComponent } from './pagina/acerca/acerca.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     FooterSectionComponent,
     PaginaComponent,
     LoginComponent,
-    DashboardComponent
+    DashboardComponent,
+    InicioComponent,
+    ProductosComponent,
+    AcercaComponent
   ],
   imports: [
     BrowserModule,
